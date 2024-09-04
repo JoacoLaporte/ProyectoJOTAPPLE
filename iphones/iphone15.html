@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAPPLE</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>  
+
+  <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <div>
+            <a class="navbar-brand" href="/index.html">JotApple <i class="fa-brands fa-apple"></i></a>
+          </div>
+
+          <div id="soporte">
+              <li><a href="#">Soporte</a></li>
+              <li><a href="#">Nosotros</a></li> 
+              <li><a href="#">Contacto</a></li>
+
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <li id="carrito-icono"><a href="#"><i class="fas fa-shopping-cart"></i> <span id="contador-carrito">0</span></a></li>
+          </div>
+        </div>
+      </nav>
+
+    <div id="nav-productos">
+      <ul class="nav nav-pills">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="iphone.html" role="button" aria-expanded="false">IPhone</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="iphone15.html">IPhone 15</a></li>
+            <li><a class="dropdown-item" href="iphone14.html">IPhone 14</a></li>
+            <li><a class="dropdown-item" href="iphone13.html">IPhone 13</a></li>
+            <li><a class="dropdown-item" href="iphoneSE.html">IPhone SE</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="mac.html" role="button" aria-expanded="false">Mac</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/macbook/macbookPro.html">MacBook Pro</a></li>
+            <li><a class="dropdown-item" href="/macbook/macbookAir.html">MacBook Air</a></li>
+            <li><a class="dropdown-item" href="/macbook/imac.html">iMac</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="watch.html" role="button" aria-expanded="false">Watch</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/watch/watchUltra.html">Watch Ultra</a></li>
+            <li><a class="dropdown-item" href="/watch/watchSerie9.html">Watch Series 9</a></li>
+            <li><a class="dropdown-item" href="/watch/watchSerie8.html">Watch Series 8</a></li>
+            <li><a class="dropdown-item" href="/watch/watchSE.html">Watch SE</a></li>
+          </ul>
+        </li> 
+      </ul> 
+    </div>
+  </header>
+  
+  <div>
+    <h1>IPhone 15</h1>
+  </div>
+
+  <div id="products-container" data-categoria="iphone15">
+    <!-- Aquí se mostrarán los productos -->
+  </div>
+  
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="cart-content">
+        <!-- Aquí se mostrará el contenido del carrito -->
+      </div>
+      <button id="clear-cart-btn">Vaciar carrito</button>
+    </div>
+  </div>
+  
+  <!-- <div id="productos"></div> -->
+
+
+    <!--FOOTER-->
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+  </footer>
+</div>
+
+<!-- End of .container -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/4b75cb913a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="/productos.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

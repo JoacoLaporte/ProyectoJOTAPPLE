@@ -1,0 +1,222 @@
+/*NAV BAR*/
+.navbar{
+    color: #000;
+    font-size: 15px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#navbar-logo{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+#soporte{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#soporte a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+#soporte a:hover{
+    color: rgb(205, 92, 92);
+    font-weight: bold;
+}
+
+
+.d-flex input{
+    border-radius: 10px;
+    border: 1px solid rgb(205, 92, 92);
+}
+
+.d-flex button{
+    border: none;
+    background-color: transparent;
+}
+
+.d-flex button:hover{
+    color: rgb(205, 92, 92);
+}
+
+#nav-productos ul{
+    justify-content: center;
+}
+
+#nav-productos ul li a{
+    color: #000;
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+#nav-productos ul li a:hover{
+    color: rgb(205, 92, 92);
+    font-weight: bold;
+}
+
+
+
+
+/*Productos*/
+
+.shop-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card > img{
+    width: 100%;
+    height: 250px;
+}
+
+.precio{
+    color: grey;
+    font-size: 22px;
+}
+
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button :hover{
+    opacity: 0.5;
+}
+
+
+
+/*MAC HOME*/
+.contenedor-machome{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.contenedor-machome > img{
+    width: 50%;
+    animation-name: zoomIn;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+}
+
+
+/*WATCH HOME*/
+.contenedor-watchhome{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    align-items: center;
+}
+
+.contenedor-watchhome > img{
+    width: 50%;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+.titulo-watchhome{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*FORMULARIO HOME*/
+.formulario{
+    background-image: url(imagenes/fondoformulario2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1100px;
+    background-size: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.formulario-titulo{
+    color: white;
+    border-bottom: solid 1px white ;
+    padding-bottom: 20px;
+}
+
+
+/* Estilos del modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .product-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
