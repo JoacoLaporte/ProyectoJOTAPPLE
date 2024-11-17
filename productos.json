@@ -1,0 +1,142 @@
+{
+"productos": [ 
+    {
+      "id": 1,
+      "nombre": "IPhone 15",
+      "precio": 1500,
+      "imagen": "/imagenes/iphone15/iPhone15_familia.jpg",
+      "categoria": "iphone15"
+    },
+    {
+      "id": 2,
+      "nombre": "IPhone 15 Plus",
+      "precio": 1350,
+      "imagen": "/imagenes/iphone15/iPhone15_familia.jpg",
+      "categoria": "iphone15"
+    },
+    {
+      "id": 3,
+      "nombre": "IPhone 15 Pro",
+      "precio": 1200,
+      "imagen": "/imagenes/iphone15pro/iPhone15PRO_familia.jpg",
+      "categoria": "iphone15"
+    },
+    {
+      "id": 4,
+      "nombre": "IPhone 15 Pro Max",
+      "precio": 1200,
+      "imagen": "/imagenes/iphone15pro/iPhone15PRO_familia.jpg",
+      "categoria": "iphone15"
+    },
+    {
+      "id": 5,
+      "nombre": "IPhone 14",
+      "precio": 1200,
+      "imagen": "/imagenes/iphone14/iPhone_14_familia.jpg",
+      "categoria": "iphone14"
+    },
+    {
+      "id": 6,
+      "nombre": "IPhone 14 Plus",
+      "precio": 1200,
+      "imagen": "/imagenes/iphone14/iPhone_14_familia.jpg",
+      "categoria": "iphone14"
+    },
+    {
+      "id": 7,
+      "nombre": "IPhone 14 Pro",
+      "precio": 1200,
+      "imagen": "/imagenes/iphone14pro/iPhone_14_Pro_familia.jpg",
+      "categoria": "iphone14"
+    },
+    {
+      "id": 8,
+      "nombre": "IPhone 14 Pro Max",
+      "precio": 1200,
+      "imagen": "/imagenes/iphone14pro/iPhone_14_Pro_familia.jpg",
+      "categoria": "iphone14"
+    },
+    {
+      "id": 9,
+      "nombre": "IPhone 13",
+      "precio": 1200,
+      "imagen": "/imagenes/iphone13/iPhone_13_mini_ProductRED_PDP_Image_position-1A__CLCO_v1-removebg-preview.png",
+      "categoria": "iphone13"
+    },
+    {
+      "id": 10,
+      "nombre": "IPhone SE",
+      "precio": 1200,
+      "imagen": "/imagenes/iphoneSE/iPhoneSE_familia.jpg",
+      "categoria": "iphoneSE"
+    },
+    {
+      "id": 11,
+      "nombre": "Macbook Air 13' ",
+      "precio": 1300,
+      "imagen": "/imagenes/macbook/macbook-air-13.jpg",
+      "categoria": "macbookAir"
+    },
+    {
+      "id": 12,
+      "nombre": "Macbook Air 15' ",
+      "precio": 1800,
+      "imagen": "/imagenes/macbook/macbook-air-15.jpg",
+      "categoria": "macbookAir"
+    },
+    {
+      "id": 13,
+      "nombre": "Macbook Pro 13' ",
+      "precio": 1600,
+      "imagen": "/imagenes/macbook/mac1.jpg",
+      "categoria": "macbookPro"
+    },
+    {
+      "id": 14,
+      "nombre": "Macbook Pro 15' ",
+      "precio": 2400,
+      "imagen": "/imagenes/macbook/mac1.jpg",
+      "categoria": "macbookPro"
+    },
+    {
+      "id": 15,
+      "nombre": "Imac",
+      "precio": 2400,
+      "imagen": "/imagenes/macbook/mac1.jpg",
+      "categoria": "imac"
+    },
+    {
+      "id": 16,
+      "nombre": "Watch Ultra",
+      "precio": 1800,
+      "imagen": "/imagenes/macbook/macbook-air-15.jpg",
+      "categoria": "watchUltra"
+    },
+    {
+      "id": 17,
+      "nombre": "Watch Serie 9",
+      "precio": 1600,
+      "imagen": "/imagenes/macbook/mac1.jpg",
+      "categoria": "watchserie9"
+    },
+    {
+      "id": 18,
+      "nombre": "Watch Serie 8",
+      "precio": 2400,
+      "imagen": "/imagenes/macbook/mac1.jpg",
+      "categoria": "watchserie8"
+    },
+    {
+      "id": 19,
+      "nombre": "Watch SE",
+      "precio": 2400,
+      "imagen": "/imagenes/macbook/mac1.jpg",
+      "categoria": "watchSE"
+    }
+  ]
+}
+  
+
+
+
+

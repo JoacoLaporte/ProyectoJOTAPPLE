@@ -39,27 +39,27 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="true">IPhone</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="iphones/iphone15.html">IPhone 15</a></li>
-            <li><a class="dropdown-item" href="iphones/iphone14.html">IPhone 14</a></li>
-            <li><a class="dropdown-item" href="iphones/iphone13.html">IPhone 13</a></li>
-            <li><a class="dropdown-item" href="iphones/iphoneSE.html">IPhone SE</a></li>
+            <li><a class="dropdown-item" href="#" onclick="getProductosJson('iphone15')">IPhone 15</a></li>
+            <li><a class="dropdown-item" href="#" onclick="getProductosJson('iphone14')">IPhone 14</a></li>
+            <li><a class="dropdown-item" href="iphones/iphone13.html" onclick="getProductosJson('iphone13')">IPhone 13</a></li>
+            <li><a class="dropdown-item" href="iphones/iphoneSE.html" onclick="getProductosJson('iphoneSE')">IPhone SE</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="mac.html" role="button" aria-expanded="false">Mac</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="macbook/macbookPro.html">MacBook Pro</a></li>
-            <li><a class="dropdown-item" href="macbook/macbookAir.html">MacBook Air</a></li>
-            <li><a class="dropdown-item" href="macbook/imac.html">iMac</a></li>
+            <li><a class="dropdown-item" href="macbook/macbookPro.html" onclick="getProductosJson('macbookPro')">MacBook Pro</a></li>
+            <li><a class="dropdown-item" href="macbook/macbookAir.html" onclick="getProductosJson('macbookAir')">MacBook Air</a></li>
+            <li><a class="dropdown-item" href="macbook/imac.html" onclick="getProductosJson('imac')">iMac</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="watch.html" role="button" aria-expanded="false">Watch</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="watch/watchUltra.html">Watch Ultra</a></li>
-            <li><a class="dropdown-item" href="watch/watchSerie9.html">Watch Series 9</a></li>
-            <li><a class="dropdown-item" href="watch/watchSerie8.html">Watch Series 8</a></li>
-            <li><a class="dropdown-item" href="watch/watchSE.html">Watch SE</a></li>
+            <li><a class="dropdown-item" href="watch/watchUltra.html" onclick="getProductosJson('watchUltra')">Watch Ultra</a></li>
+            <li><a class="dropdown-item" href="watch/watchSerie9.html" onclick="getProductosJson('watchserie9')">Watch Series 9</a></li>
+            <li><a class="dropdown-item" href="watch/watchSerie8.html" onclick="getProductosJson('watchserie8')">Watch Series 8</a></li>
+            <li><a class="dropdown-item" href="watch/watchSE.html" onclick="getProductosJson('watchSE')">Watch SE</a></li>
           </ul>
         </li> 
       </ul> 
@@ -93,20 +93,23 @@
   </header>
 
   <!--MAC BOOK-->
-  <section>
-    <div class="contenedor-machome">
+  <section id="contenedorMaHhome">
+    <div class="contenedoMachome">
       <h1>Lo ultimo en tecnologia para que <br>traslades a cualquier parte</h1>
       <img src="imagenes/fondohomemac2.jpg">
     </div>
   </section>
 
 <!--WATCH--> 
-<section>
+<section id="contenedorWatchHome">
   <div class="contenedor-watchhome">
     <img src="imagenes/fondohomewatch1.jpg">
     <h1 class="titulo-watchhome">No pierdas mas el tiempo... <br>Ya es hora que tengas el tuyo</h1>
   </div>
 </section>
+
+<!-- CONTENIDO -->
+<div id="contenedorProductos"></div>
 
 
 <!--FORMULARIO CONSULTAS-->
